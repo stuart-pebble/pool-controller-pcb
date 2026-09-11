@@ -1,0 +1,30 @@
+{
+  "kicad_version": "9.0.9",
+  "carrier_parts": 19,
+  "source_sha256": {
+    "PoolController.kicad_pcb": "468a0600bfd2a1f33a1d2c425b3d90ec3d3d54e490a4b3cbeb05222fc85e05ef",
+    "PoolController.kicad_sch": "6583cb9f608f90fbfcb9e2c980c530a7a93fc918bdb93c87360bae1b73e85cec",
+    "PoolController.kicad_pro": "aef23f818c3ed1947e629cb3ffb3673c13c99617a533d8275263e4dcb61bb602",
+    "fp-lib-table": "ab5ebf73e2e45cfe8c55da4440e98772d672f3ef7b4bf433c10901512ce7c2a3",
+    "sym-lib-table": "d0bb6956a3f66e908ebafac8a5357a3d94863e20919d3e50b6d62c16f50f518a",
+    "components/PoolController.kicad_sym": "ae800d1dee961006a75f494d7ab609df8b584d76ea4318d3cb167d9643a49245",
+    "components/ul_LM2678T-5-0-NOPB/KiCADv6/2026-02-05_23-51-42.kicad_sym": "6b9857b20f6cb3fb2931b38ace4edb33354f3579968dc554b0e6723c1b965fac",
+    "components/ul_MMBT3904-TP/KiCADv6/2026-04-01_04-19-14.kicad_sym": "18f3f5d77842b51523ca426c59cbc7e5dd912241415428fb40cbf855d751fffd",
+    "components/PoolController.pretty/RJ12_5324_6P6C.kicad_mod": "a0f2a421e93dbfcb29848468912276bb49218b99bfbc762f0edb391460752075",
+    "components/ul_LM2678T-5-0-NOPB/KiCADv6/footprints.pretty/TA07B.kicad_mod": "a6b48f2a39ea77666facfd4cebe855f656891e0546c244a63e85addb4a7b443d",
+    "components/ul_MMBT3904-TP/KiCADv6/footprints.pretty/SOT-23_MCC-L.kicad_mod": "cfe15c8c65c7f02f411640edf25ea374844726405773a9827b21bec647c5ee43",
+    "components/ul_MMBT3904-TP/KiCADv6/footprints.pretty/SOT-23_MCC-M.kicad_mod": "41c85df5b3d7bb3f9bbc3f3dc7d2d8b3b73158d33872792abde3fe68ea4ceee5",
+    "components/ul_MMBT3904-TP/KiCADv6/footprints.pretty/SOT-23_MCC.kicad_mod": "0781b091a507ec78ce65a6bb1a82012f2197926fef57c51fef183e3fb41747fa",
+    "scripts/export-manufacturing.sh": "48c12a0a9fd8f473b4f04c9c569d51e98b532b3dce79c7e82b76eec4d54023a2",
+    "scripts/package-manufacturing.py": "8f91831f69496a822eb37d22ecb378dcbd5017db297ba28d2f981d3e64a17486"
+  },
+  "artifact_sha256": {
+    "BOM.csv": "31e4011da909bec45620d35292f8049ed83c4bf453827878b0672a57d7acabea",
+    "CPL.csv": "f6904cb199e158ff50a4b1e6e16eb2fc7b15989bab202cd1a6af58199750ff5a",
+    "assembly.pdf": "1898006d6a6628d7b7701cdb572a8eaa9784975e470b6b045806bde8462b43cb",
+    "copper.pdf": "4934a1c45136f84a4d49aff694f0005aac2e2b1691a2d9c14c9a529a296a2eac",
+    "fabrication.zip": "e92109798e3ac12e8a481d8ed1ae5b68c561272cba195e7933ac5d1d2f46898d",
+    "schematic.pdf": "0b8871817b44c987f7b6fb983c6ea6affd7c2a63c1c2aa77671af45943055ec8"
+  },
+  "status": "Prototype; procurement and physical acceptance remain required. See README.md and docs/rev15-assembly.md."
+}

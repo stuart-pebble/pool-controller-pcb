@@ -8,15 +8,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [TODO]
-- Test Zener Diode fix
+- Complete revision 15 prototype acceptance (see docs/rev15-assembly.md).
 
 
-## [Unreleased]
+## [Unreleased] — Revision 15 prototype — 2026-09-12
 ### Added
+- D3 BAT54,215 RX clamp to the Waveshare module 3.3 V rail through J4 pin 3 (issue #3).
+- Project-local clamp symbol and retained custom RJ12 footprint.
+- Sample fabrication/assembly outputs and a functional acceptance checklist.
+- Pin-adjacent VIN/RX/TX/GND labels for J3.
+
 ### Changed
-### Deprecated
-### Removed
-### Fixed
+- R3 TX base resistor from 1 kΩ to 560 Ω (issue #4; called R4 in older revisions). R4 stays 100 kΩ.
+- L1 BOM primary to the previously listed Bourns SRR1050A-121Y; no automatic substitute.
+
+### Validation status
+- Prototype revision; physical validation remains required. The rail clamp does not provide power-off isolation.
+- RJ12 procurement/fit and assembler approval remain required before a complete assembly order.
 
 ## [1.1.0] - 2026-08-01
 ### Changed

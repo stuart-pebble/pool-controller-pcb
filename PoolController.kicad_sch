@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Connect 10 Controller")
-		(date "2026-08-01")
-		(rev "14")
+		(date "2026-09-12")
+		(rev "15")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
@@ -134,7 +134,8 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
+						(xy 1.27 2.54)
+						(xy 0.8636 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -146,7 +147,8 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy 0.8636 0)
+						(xy 1.27 0)
+						(xy 0.8636 0)
 					)
 					(stroke
 						(width 0.1524)
@@ -158,7 +160,8 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+						(xy 1.27 -2.54)
+						(xy 0.8636 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -170,7 +173,8 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+						(xy 1.27 -5.08)
+						(xy 0.8636 -5.08)
 					)
 					(stroke
 						(width 0.1524)
@@ -328,7 +332,9 @@
 			(symbol "RJ12_0_1"
 				(polyline
 					(pts
-						(xy -6.35 3.175) (xy -5.08 3.175) (xy -5.08 3.175)
+						(xy -6.35 3.175)
+						(xy -5.08 3.175)
+						(xy -5.08 3.175)
 					)
 					(stroke
 						(width 0)
@@ -340,7 +346,9 @@
 				)
 				(polyline
 					(pts
-						(xy -6.35 1.905) (xy -5.08 1.905) (xy -5.08 1.905)
+						(xy -6.35 1.905)
+						(xy -5.08 1.905)
+						(xy -5.08 1.905)
 					)
 					(stroke
 						(width 0)
@@ -352,7 +360,9 @@
 				)
 				(polyline
 					(pts
-						(xy -6.35 0.635) (xy -5.08 0.635) (xy -5.08 0.635)
+						(xy -6.35 0.635)
+						(xy -5.08 0.635)
+						(xy -5.08 0.635)
 					)
 					(stroke
 						(width 0)
@@ -364,7 +374,9 @@
 				)
 				(polyline
 					(pts
-						(xy -6.35 -0.635) (xy -5.08 -0.635) (xy -5.08 -0.635)
+						(xy -6.35 -0.635)
+						(xy -5.08 -0.635)
+						(xy -5.08 -0.635)
 					)
 					(stroke
 						(width 0)
@@ -376,7 +388,9 @@
 				)
 				(polyline
 					(pts
-						(xy -6.35 -1.905) (xy -5.08 -1.905) (xy -5.08 -1.905)
+						(xy -6.35 -1.905)
+						(xy -5.08 -1.905)
+						(xy -5.08 -1.905)
 					)
 					(stroke
 						(width 0)
@@ -388,9 +402,20 @@
 				)
 				(polyline
 					(pts
-						(xy -6.35 -4.445) (xy -6.35 6.985) (xy 3.81 6.985) (xy 3.81 4.445) (xy 5.08 4.445) (xy 5.08 3.175)
-						(xy 6.35 3.175) (xy 6.35 -0.635) (xy 5.08 -0.635) (xy 5.08 -1.905) (xy 3.81 -1.905) (xy 3.81 -4.445)
-						(xy -6.35 -4.445) (xy -6.35 -4.445)
+						(xy -6.35 -4.445)
+						(xy -6.35 6.985)
+						(xy 3.81 6.985)
+						(xy 3.81 4.445)
+						(xy 5.08 4.445)
+						(xy 5.08 3.175)
+						(xy 6.35 3.175)
+						(xy 6.35 -0.635)
+						(xy 5.08 -0.635)
+						(xy 5.08 -1.905)
+						(xy 3.81 -1.905)
+						(xy 3.81 -4.445)
+						(xy -6.35 -4.445)
+						(xy -6.35 -4.445)
 					)
 					(stroke
 						(width 0)
@@ -402,7 +427,9 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 4.445) (xy -6.35 4.445) (xy -6.35 4.445)
+						(xy -5.08 4.445)
+						(xy -6.35 4.445)
+						(xy -6.35 4.445)
 					)
 					(stroke
 						(width 0)
@@ -1392,7 +1419,8 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 0.762)
+						(xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1404,7 +1432,8 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 -0.762)
+						(xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1532,7 +1561,8 @@
 			(symbol "C_Polarized_US_0_1"
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 0.762)
+						(xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1544,7 +1574,8 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
+						(xy -1.778 2.286)
+						(xy -0.762 2.286)
 					)
 					(stroke
 						(width 0)
@@ -1556,7 +1587,8 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 1.778) (xy -1.27 2.794)
+						(xy -1.27 1.778)
+						(xy -1.27 2.794)
 					)
 					(stroke
 						(width 0)
@@ -1694,7 +1726,12 @@
 			(symbol "D_Schottky_Filled_0_1"
 				(polyline
 					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+						(xy -1.905 0.635)
+						(xy -1.905 1.27)
+						(xy -1.27 1.27)
+						(xy -1.27 -1.27)
+						(xy -0.635 -1.27)
+						(xy -0.635 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -1706,7 +1743,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 1.27 1.27)
+						(xy 1.27 -1.27)
+						(xy -1.27 0)
+						(xy 1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -1718,7 +1758,8 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 1.27 0)
+						(xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -2136,7 +2177,8 @@
 			(symbol "LM2678T-5.0_NOPB_0_1"
 				(polyline
 					(pts
-						(xy 7.62 5.08) (xy 7.62 -12.7)
+						(xy 7.62 5.08)
+						(xy 7.62 -12.7)
 					)
 					(stroke
 						(width 0.127)
@@ -2148,7 +2190,8 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -12.7) (xy 58.42 -12.7)
+						(xy 7.62 -12.7)
+						(xy 58.42 -12.7)
 					)
 					(stroke
 						(width 0.127)
@@ -2160,7 +2203,8 @@
 				)
 				(polyline
 					(pts
-						(xy 58.42 5.08) (xy 7.62 5.08)
+						(xy 58.42 5.08)
+						(xy 7.62 5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -2172,7 +2216,8 @@
 				)
 				(polyline
 					(pts
-						(xy 58.42 -12.7) (xy 58.42 5.08)
+						(xy 58.42 -12.7)
+						(xy 58.42 5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -2423,7 +2468,8 @@
 			(symbol "2N3904_0_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy 0.635 0)
+						(xy -2.54 0)
+						(xy 0.635 0)
 					)
 					(stroke
 						(width 0)
@@ -2435,7 +2481,8 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
+						(xy 0.635 1.905)
+						(xy 0.635 -1.905)
 					)
 					(stroke
 						(width 0.508)
@@ -2460,7 +2507,8 @@
 			(symbol "2N3904_1_1"
 				(polyline
 					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
+						(xy 0.635 0.635)
+						(xy 2.54 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2472,7 +2520,8 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
+						(xy 0.635 -0.635)
+						(xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -2484,7 +2533,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+						(xy 1.27 -1.778)
+						(xy 1.778 -1.27)
+						(xy 2.286 -2.286)
+						(xy 1.27 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -2619,7 +2671,8 @@
 			(symbol "+24V_0_1"
 				(polyline
 					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
+						(xy -0.762 1.27)
+						(xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2631,7 +2684,8 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 2.54)
+						(xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2643,7 +2697,8 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 0)
+						(xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2744,7 +2799,8 @@
 			(symbol "+5V_0_1"
 				(polyline
 					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
+						(xy -0.762 1.27)
+						(xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2756,7 +2812,8 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 2.54)
+						(xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2768,7 +2825,8 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 0)
+						(xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2869,7 +2927,12 @@
 			(symbol "GND_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+						(xy 0 0)
+						(xy 0 -1.27)
+						(xy 1.27 -1.27)
+						(xy 0 -2.54)
+						(xy -1.27 -1.27)
+						(xy 0 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -2990,7 +3053,12 @@
 			(symbol "PWR_FLAG_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+						(xy 0 0)
+						(xy 0 1.27)
+						(xy -1.016 1.905)
+						(xy 0 2.54)
+						(xy 1.016 1.905)
+						(xy 0 1.27)
 					)
 					(stroke
 						(width 0)
@@ -3003,47 +3071,186 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(text "+5v"
-		(exclude_from_sim no)
-		(at 141.478 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(symbol "PoolController:BAT54"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
 			)
-		)
-		(uuid "110715ea-5e2e-4926-817e-17993b12eede")
-	)
-	(text "GND"
-		(exclude_from_sim no)
-		(at 141.224 86.614 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
 			)
-		)
-		(uuid "9563115d-693a-4f88-b309-d021d825f851")
-	)
-	(text "TX"
-		(exclude_from_sim no)
-		(at 142.24 96.774 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+			(property "Value" "BAT54"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
 			)
-		)
-		(uuid "a99cf4a3-07dd-415a-b202-783a89d613ca")
-	)
-	(text "RX"
-		(exclude_from_sim no)
-		(at 142.24 94.234 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
 			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Schottky clamp diode; SOT-23; 1=A, 2=NC, 3=K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BAT54_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635)
+						(xy -1.905 1.27)
+						(xy -1.27 1.27)
+						(xy -1.27 -1.27)
+						(xy -0.635 -1.27)
+						(xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27)
+						(xy 1.27 -1.27)
+						(xy -1.27 0)
+						(xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0)
+						(xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAT54_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 0 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
-		(uuid "d362621c-b71b-47e7-b879-9f36ce273f77")
 	)
+
+
+
+
 	(junction
 		(at 71.12 96.52)
 		(diameter 0)
@@ -3310,10 +3517,7 @@
 		(at 161.29 88.9)
 		(uuid "47a003dd-28f5-4fcf-84ac-38c789c6514c")
 	)
-	(no_connect
-		(at 148.59 93.98)
-		(uuid "49da773a-d3a0-478e-b55c-b254431626a2")
-	)
+
 	(no_connect
 		(at 161.29 93.98)
 		(uuid "56c826e3-3db7-47dd-ada9-48a480d14de5")
@@ -4791,7 +4995,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "NPI105C121MTRF or SRR1050A-121Y"
+		(property "MPN" "SRR1050A-121Y"
 			(at 138.43 62.23 0)
 			(effects
 				(font
@@ -4800,7 +5004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "NIC Components or Bournes Inc."
+		(property "Manufacturer" "Bourns"
 			(at 138.43 62.23 0)
 			(effects
 				(font
@@ -4945,6 +5149,7 @@
 					(italic yes)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -5454,6 +5659,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-24_18.0mmx34.29mm_W15.24mm_Socket"
@@ -5693,7 +5899,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R1k"
+		(property "Value" "R560"
 			(at 140.97 110.4899 0)
 			(effects
 				(font
@@ -5729,7 +5935,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603FR-071KL"
+		(property "MPN" "RC0603FR-07560RL"
 			(at 138.43 109.22 0)
 			(effects
 				(font
@@ -5788,7 +5994,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ25_RJ12_5324_mini"
+		(property "Footprint" "PoolController:RJ12_5324_6P6C"
 			(at 48.26 130.175 90)
 			(effects
 				(font
@@ -6515,7 +6721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ25_RJ12_5324_mini"
+		(property "Footprint" "PoolController:RJ12_5324_6P6C"
 			(at 48.26 98.425 90)
 			(effects
 				(font
@@ -6593,4 +6799,177 @@
 		)
 	)
 	(embedded_fonts no)
+
+	(symbol
+		(lib_id "PoolController:BAT54")
+		(at 182.88 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "624ad675-a80e-4401-9476-b79c4bae1ab4")
+		(property "Reference" "D3"
+			(at 186.69 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54"
+			(at 186.69 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 186.69 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54.pdf"
+			(at 186.69 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RX clamp to module 3.3 V; fit module before powering"
+			(at 186.69 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAT54,215"
+			(at 186.69 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 186.69 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ab51794-3b08-4acb-b05a-1e8cc86cee94")
+		)
+		(pin "2"
+			(uuid "32e021fc-0190-4988-bbbb-24bce1766207")
+		)
+		(pin "3"
+			(uuid "9e91e61e-ce4d-4ae4-b41b-153ec2cfd10a")
+		)
+		(instances
+			(project "PoolController"
+				(path "/19c01251-b544-42b5-958c-1f3f3624b74e"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 148.59 93.98)
+			(xy 137.16 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a53c59d-da8a-460e-9845-516066d5596a")
+	)
+	(label "+3V3_MODULE"
+		(at 137.16 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a627c03-4eaf-4b70-aaa5-00a69eac54bd")
+	)
+	(label "RX"
+		(at 93.98 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "167f98cc-169c-4fe0-8bd0-4ecd987df248")
+	)
+	(wire
+		(pts
+			(xy 182.88 95.25)
+			(xy 182.88 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a92cb4a0-7792-41b6-af4a-0fb79dff4eb3")
+	)
+	(label "+3V3_MODULE"
+		(at 182.88 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0084142-b907-43d4-941f-2abbf50489d4")
+	)
+	(wire
+		(pts
+			(xy 182.88 102.87)
+			(xy 182.88 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bdf8e3b-e9d0-4173-8cf3-480399273af3")
+	)
+	(label "RX"
+		(at 182.88 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a4b73d9-fb2c-42a4-9742-b269ddee8f23")
+	)
+	(text "RX protection (issue #3)\nCathode to Waveshare 3V3 (J4.3).\nModule must be fitted and powered.\nValidate powered-off / rail-injection behavior."
+		(at 180.34 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4e1b3ff3-544e-4ad0-9c81-d1b66b18b8d9")
+	)
 )
