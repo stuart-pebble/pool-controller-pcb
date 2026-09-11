@@ -5994,7 +5994,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PoolController:RJ12_5324_6P6C"
+		(property "Footprint" "PoolController:RJ12_Ckmtw_R-RJ11R06P-A000"
 			(at 48.26 130.175 90)
 			(effects
 				(font
@@ -6003,7 +6003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.aliexpress.com/i/1005008617248283.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2902699.pdf"
 			(at 48.26 130.175 90)
 			(effects
 				(font
@@ -6021,7 +6021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Ckmtw"
 			(at 48.26 130.81 0)
 			(effects
 				(font
@@ -6030,7 +6030,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "R-RJ11R06P-A000"
 			(at 48.26 130.81 0)
 			(effects
 				(font
@@ -6063,6 +6063,33 @@
 					(reference "J2")
 					(unit 1)
 				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 48.26 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2902699"
+			(at 48.26 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier URL" "https://www.lcsc.com/product-detail/C2902699.html"
+			(at 48.26 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 	)
@@ -6721,7 +6748,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PoolController:RJ12_5324_6P6C"
+		(property "Footprint" "PoolController:RJ12_Ckmtw_R-RJ11R06P-A000"
 			(at 48.26 98.425 90)
 			(effects
 				(font
@@ -6730,7 +6757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.aliexpress.com/i/1005008617248283.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2902699.pdf"
 			(at 48.26 98.425 90)
 			(effects
 				(font
@@ -6748,7 +6775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Ckmtw"
 			(at 48.26 99.06 0)
 			(effects
 				(font
@@ -6757,7 +6784,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "R-RJ11R06P-A000"
 			(at 48.26 99.06 0)
 			(effects
 				(font
@@ -6790,6 +6817,33 @@
 					(reference "J1")
 					(unit 1)
 				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 48.26 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2902699"
+			(at 48.26 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier URL" "https://www.lcsc.com/product-detail/C2902699.html"
+			(at 48.26 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 	)

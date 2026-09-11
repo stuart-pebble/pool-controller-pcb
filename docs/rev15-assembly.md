@@ -22,17 +22,32 @@ Revision 15 implements the powered RX clamp proposed in [issue #3](https://githu
 | U1 thermal pad | Four existing 0.8 mm drilled ground vias within the thermal pad; tenting is requested, not filled/capped vias. Assembler must approve paste and via treatment. |
 | Inspection | Electrical bare-board test, assembly polarity/placement inspection, then functional acceptance below |
 
-A combined fabrication and mixed SMT/through-hole assembly order is supported by suppliers such as [JLCPCB](https://jlcpcb.com/capabilities/pcb-assembly-capabilities). Standard assembly is the initial quote route for the listed regulator temperature limit and sourcing/manual assembly needs. Add tooling rails/fiducials as required by the selected assembler; the four mounting holes are not an approved tooling-hole pattern.
+[PCBWay supports mixed SMT/through-hole assembly](https://www.pcbway.com/assembly-capabilities.html) and [turnkey, nominated-distributor, consigned or combined sourcing](https://www.pcbway.com/pcb_prototype/Electronic_Components.html). Request **turnkey PCB fabrication plus mixed assembly** with the PCBWay-specific BOM and SMT centroid in the manufacturing folder. PCBWay's published capabilities support these package types; only their reviewed quote can confirm every exact part, lead time, reflow profile and manual installation service. No order or quote has been submitted.
 
-### RJ12 sockets: procurement hold
+### RJ12 sockets: specified distributor part
 
-J1/J2 retain the existing **5324 mini 6P6C** connector geometry. The original sourcing reference is [this vendor listing](https://www.aliexpress.com/i/1005008617248283.html); it is not a traceable manufacturer MPN. The PCB's exact footprint is bundled in the project library for reproducibility. This does not qualify an arbitrary substitute.
+J1/J2 are **Ckmtw R-RJ11R06P-A000**, **LCSC C2902699**, quantity **2 per carrier**. [Distributor product/source](https://www.lcsc.com/product-detail/C2902699.html), [manufacturer drawing through LCSC](https://www.lcsc.com/datasheet/C2902699.pdf). Although marketed as RJ11, the drawing explicitly specifies six positions and six contacts (6P6C), suitable for the requested RJ12 connection. Do not substitute a four-contact socket.
 
-Before authorizing connector procurement, have the assembler match drawings or physical samples to the supplied footprint: all six contacts, two locating pegs, body size/overhang and mating orientation. Either obtain an approved exact item or consign verified connectors. The BOM marks this hold explicitly; no invented manufacturer part number is provided.
+The board now uses a dedicated project footprint derived from drawing **C2902699, revision A**: 1.27 mm contact progression, 2.54 mm row spacing, six 0.90 mm plated holes, and two 3.20 mm non-plated retention holes spaced 10.16 mm. Contacts 1/6 carry supply, 2/3/5 ground, and 4 bus data, preserving schematic numbering. Connector-region supply/data routing and ground connections were updated for the new holes.
 
-### Waveshare module: an additional assembly item
+This is a **larger, tab-down connector**, approximately 13.21 mm wide × 20.54 mm deep × 12.70 mm high. It replaces the original 5324 mini geometry; the two parts are not interchangeable. Connector origins are now J1 (82.50, 75.00) and J2 (82.50, 93.55) mm, rotated −90°. The mating face overhangs the left PCB edge. The body-to-tail offset is not dimensioned in the supplier drawing: the fabrication outline is an approximate envelope and the courtyard allows extra clearance. Check the actual part against the enclosure and front opening before committing enclosure manufacture. Silkscreen is clipped back inside the PCB and does not represent the overhanging face.
 
-Use the finished **Waveshare ESP32-C6 Mini Development Board / ESP32-C6-Zero**, with headers fitted for insertion into J4. This is a separate item from the **DILB24P-223TLF socket** in the carrier BOM. Agree whether the assembler supplies and installs the module or the customer plugs it in after receiving the fully soldered carrier. A carrier-only quote does not include a controller module or firmware.
+LCSC displayed stock at review on 2026-09-12; stock is not reserved and PCBWay must confirm procurement. The drawing calls out a 1.6 mm PCB, whereas this carrier retains its required **1.2 mm** thickness. Ask PCBWay to confirm the snap-peg seating/retention on 1.2 mm and hold the connector flush during soldering if necessary. Through-hole solder joints and the final mechanical fit require inspection. The obsolete approximate Wayconn 3D model is not used for these connectors.
+
+### Full-BOM sourcing check for PCBWay
+
+The BOM now includes nominated supplier links for every carrier MPN. These are evidenced procurement routes, not a PCBWay stock commitment. See [procurement data](../manufacturing/procurement.json) for the exact links used by the exporter.
+
+- **C1, C2/C3, C5 and L1** have NRND/end-of-life warnings despite distributor stock. Confirm allocation of the exact parts. Power-stage substitutions need separate electrical review.
+- **J4 DILB24P-223TLF is obsolete**, with remaining distributor stock at review. Confirm availability and actual contact finish; the distributor describes tin-lead, so do not assume a lead-free assembly from the suffix. If PCBWay requires a RoHS build or stock is exhausted, qualify a current socket with the same dimensions and compatible contacts before release.
+- **D1/D2** have a stocked LCSC route (C110797) despite DigiKey backorder. **R3** has a Mouser route despite DigiKey backorder. The other BOM lines have distributor listings with stock at review. PCBWay may need procurement minimums and assembly overage beyond fitted quantities.
+- Approve U1's reflow limit and thermal-pad via treatment, as above. Confirm tooling/fiducials with PCBWay; mounting holes are not an approved tooling-hole pattern.
+
+### Waveshare module: already purchased by customer
+
+The customer has already ordered the finished **Waveshare ESP32-C6 Mini Development Boards** separately. **Do not procure additional modules.** The PCBWay purchasing BOM includes only the carrier's **DILB24P-223TLF socket**, not a Waveshare board. The default build scope is a fully soldered carrier; the customer fits their module after delivery.
+
+If PCBWay is to install the customer-owned modules, arrange **combo/consigned assembly** and quote insertion separately before shipping them. Confirm the exact supplied variant and header state: Waveshare's **ESP32-C6-Zero-M** has presoldered headers, while the unheaded variant needs compatible headers fitted first. The already-ordered variant has not been independently identified. [Waveshare product and variants](https://www.waveshare.com/product/arduino/esp32-c6-zero.htm). Module programming and functional tests are not included without an agreed firmware version and test procedure.
 
 Align the module's **5V pin to J4 pin 1 at the marked socket end**, GND to pin 2, 3V3 to pin 3, GPIO1 to pin 5 and GPIO2 to pin 6. The module has fewer pins than the DIP-24 socket; do not center it in the socket or shift it one position. Verify row spacing, header/socket contact compatibility, seating height, USB access and antenna clearance with the exact supplied board and enclosure. The generic socket 3D model is not a model of the Waveshare board.
 

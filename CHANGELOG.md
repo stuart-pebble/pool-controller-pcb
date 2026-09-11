@@ -17,14 +17,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Project-local clamp symbol and retained custom RJ12 footprint.
 - Sample fabrication/assembly outputs and a functional acceptance checklist.
 - Pin-adjacent VIN/RX/TX/GND labels for J3.
+- PCBWay carrier BOM excluding already-purchased Waveshare modules, SMT-only centroid, and nominated supplier links for all carrier parts.
 
 ### Changed
 - R3 TX base resistor from 1 kΩ to 560 Ω (issue #4; called R4 in older revisions). R4 stays 100 kΩ.
+- J1/J2 to Ckmtw R-RJ11R06P-A000 (LCSC C2902699), with new drilled footprint and connector-region routing. Larger tab-down body requires enclosure/retention review.
 - L1 BOM primary to the previously listed Bourns SRR1050A-121Y; no automatic substitute.
 
 ### Validation status
 - Prototype revision; physical validation remains required. The rail clamp does not provide power-off isolation.
-- RJ12 procurement/fit and assembler approval remain required before a complete assembly order.
+- PCBWay quote acceptance, legacy-part stock, connector fit on the 1.2 mm board and module installation remain required before assembly.
 
 ## [1.1.0] - 2026-08-01
 ### Changed

@@ -8,7 +8,7 @@ KiCad design for a Connect 10 compatible pool-bus interface, using the finished 
 
 The RX clamp requires the Waveshare 3.3 V rail and does not provide power-off isolation. Confirm operation during boot/reset/shutdown and at both 7 V and 12 V data-high levels before field use. The power-supply design report's detailed operating point is **5 V / 0.5 A**; a 5 A regulator IC does not make this a 5 A board.
 
-See [revision 15 assembly and acceptance](docs/rev15-assembly.md) before ordering. The exact RJ12 connector still needs supplier or physical-sample approval. The Waveshare module is an additional assembly item, not included merely by ordering the carrier's socket BOM line.
+See [revision 15 assembly and acceptance](docs/rev15-assembly.md) before ordering. J1/J2 now specify distributor-stocked Ckmtw R-RJ11R06P-A000 (LCSC C2902699), with a matching new footprint and connector routing. Confirm the larger connector’s enclosure clearance and snap-peg retention on the 1.2 mm board with PCBWay. The Waveshare boards have already been purchased separately; PCBWay should supply the soldered carrier and its socket, with no additional module purchase.
 
 ## Files
 
@@ -22,7 +22,7 @@ Use **KiCad 9** to open and validate the project. Custom library paths are relat
 
 ## Ordering prototypes
 
-Read the assembly notes, agree connector and module sourcing with the assembler, and review their DFM and placement previews before authorizing fabrication/assembly. Gerbers and drill files cover the bare board; the BOM, placement file and assembly drawing define fitted carrier parts. Include module installation/programming explicitly if complete working units are required.
+For PCBWay, use `PCBWay-BOM.csv` (carrier parts only; Waveshare boards are customer-supplied) and `PCBWay-SMT-CPL.csv`. Read the assembly notes, confirm legacy-part stock and module installation, and review their DFM and placement previews before authorizing fabrication/assembly. Gerbers and drill files cover the bare board; the BOM, placement file and assembly drawing define fitted carrier parts. Fit the customer-owned module after delivery, or arrange consignment and separately quote installation/programming with PCBWay.
 
 Physical checks, supplier approval, firmware programming and functional testing are distinct from KiCad ERC/DRC. Generated files are a prototype build package, not proof of field reliability.
 

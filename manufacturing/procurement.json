@@ -1,0 +1,73 @@
+{
+  "C2012C0G1H103K060AA": {
+    "Supplier": "DigiKey / Mouser",
+    "Supplier URL": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012C0G1H103K060AA",
+    "Procurement note": "NRND; distributor stock reported by TDK. Confirm allocation before build."
+  },
+  "GRM32ER71J106KA12L": {
+    "Supplier": "DigiKey",
+    "Supplier URL": "https://www.digikey.com/en/products/detail/murata-electronics/GRM32ER71J106KA12L/4905642",
+    "Procurement note": "NRND; confirm remaining stock. No automatic power-stage capacitor substitution."
+  },
+  "C0805C104M5RACTU": {
+    "Supplier": "DigiKey",
+    "Supplier URL": "https://www.digikey.com/en/products/detail/kemet/C0805C104M5RACTU/411168"
+  },
+  "GRM32ER61C476KE15L": {
+    "Supplier": "DigiKey",
+    "Supplier URL": "https://www.digikey.com/en/products/detail/murata-electronics/GRM32ER61C476KE15L/3845736",
+    "Procurement note": "NRND / end-of-life distributor flags; confirm remaining stock. No automatic substitution."
+  },
+  "PMEG6010CEH,115": {
+    "Supplier": "LCSC",
+    "Supplier Part": "C110797",
+    "Supplier URL": "https://www.lcsc.com/product-detail/C110797.html"
+  },
+  "BAT54,215": {
+    "Supplier": "LCSC",
+    "Supplier Part": "C85084",
+    "Supplier URL": "https://www.lcsc.com/product-detail/C85084.html"
+  },
+  "R-RJ11R06P-A000": {
+    "Supplier": "LCSC",
+    "Supplier Part": "C2902699",
+    "Supplier URL": "https://www.lcsc.com/product-detail/C2902699.html",
+    "Procurement note": "6P6C, tab down, right angle. Use new Ckmtw footprint only; original 5324 socket is not interchangeable. Verify retention on 1.2 mm PCB."
+  },
+  "PZ254V-11-04P": {
+    "Supplier": "LCSC",
+    "Supplier Part": "C2691448",
+    "Supplier URL": "https://www.lcsc.com/product-detail/C2691448.html"
+  },
+  "DILB24P-223TLF": {
+    "Supplier": "DigiKey",
+    "Supplier URL": "https://www.digikey.com/en/products/detail/amphenol-cs-fci/DILB24P-223TLF/5204411",
+    "Procurement note": "Obsolete, remaining stock only. Confirm actual contact finish; distributor describes tin-lead. Socket only; quote module separately."
+  },
+  "SRR1050A-121Y": {
+    "Supplier": "DigiKey",
+    "Supplier URL": "https://www.digikey.com/en/products/detail/bourns-inc/SRR1050A-121Y/6155163",
+    "Procurement note": "NRND; confirm stock and actual fitted part. No automatic substitution."
+  },
+  "MMBT3904": {
+    "Supplier": "LCSC",
+    "Supplier Part": "C181119",
+    "Supplier URL": "https://www.lcsc.com/product-detail/C181119.html",
+    "Procurement note": "Use specified Guangdong Hottech manufacturer."
+  },
+  "RC0603FR-07100KL": {
+    "Supplier": "LCSC",
+    "Supplier Part": "C14675",
+    "Supplier URL": "https://www.lcsc.com/product-detail/C14675.html"
+  },
+  "RC0603FR-07560RL": {
+    "Supplier": "Mouser",
+    "Supplier URL": "https://au.mouser.com/en/ProductDetail/YAGEO/RC0603FR-07560RL",
+    "Procurement note": "Mouser stock observed; DigiKey backordered at review. Confirm allocation."
+  },
+  "LM2678S-5.0/NOPB": {
+    "Supplier": "DigiKey",
+    "Supplier URL": "https://www.digikey.com/en/products/detail/texas-instruments/LM2678S-5-0-NOPB/363825",
+    "Procurement note": "Confirm 245 C peak reflow limit and thermal-pad via treatment."
+  }
+}

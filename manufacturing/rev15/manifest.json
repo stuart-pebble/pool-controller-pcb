@@ -2,8 +2,8 @@
   "kicad_version": "9.0.9",
   "carrier_parts": 19,
   "source_sha256": {
-    "PoolController.kicad_pcb": "468a0600bfd2a1f33a1d2c425b3d90ec3d3d54e490a4b3cbeb05222fc85e05ef",
-    "PoolController.kicad_sch": "6583cb9f608f90fbfcb9e2c980c530a7a93fc918bdb93c87360bae1b73e85cec",
+    "PoolController.kicad_pcb": "6c3cc05959d66669c83ecfd827a84a8793943c0eefe754393269c3fe30232bfc",
+    "PoolController.kicad_sch": "18c6c9eeadc331c82ff5ea983b441161aed3ba67d97dc52c3a36860d8f7cdd82",
     "PoolController.kicad_pro": "aef23f818c3ed1947e629cb3ffb3673c13c99617a533d8275263e4dcb61bb602",
     "fp-lib-table": "ab5ebf73e2e45cfe8c55da4440e98772d672f3ef7b4bf433c10901512ce7c2a3",
     "sym-lib-table": "d0bb6956a3f66e908ebafac8a5357a3d94863e20919d3e50b6d62c16f50f518a",
@@ -11,20 +11,27 @@
     "components/ul_LM2678T-5-0-NOPB/KiCADv6/2026-02-05_23-51-42.kicad_sym": "6b9857b20f6cb3fb2931b38ace4edb33354f3579968dc554b0e6723c1b965fac",
     "components/ul_MMBT3904-TP/KiCADv6/2026-04-01_04-19-14.kicad_sym": "18f3f5d77842b51523ca426c59cbc7e5dd912241415428fb40cbf855d751fffd",
     "components/PoolController.pretty/RJ12_5324_6P6C.kicad_mod": "a0f2a421e93dbfcb29848468912276bb49218b99bfbc762f0edb391460752075",
+    "components/PoolController.pretty/RJ12_Ckmtw_R-RJ11R06P-A000.kicad_mod": "6fafe885983c51fe5b119fb1c33f580f8ba54b1609ec1d58eb36c653bc000e63",
     "components/ul_LM2678T-5-0-NOPB/KiCADv6/footprints.pretty/TA07B.kicad_mod": "a6b48f2a39ea77666facfd4cebe855f656891e0546c244a63e85addb4a7b443d",
     "components/ul_MMBT3904-TP/KiCADv6/footprints.pretty/SOT-23_MCC-L.kicad_mod": "cfe15c8c65c7f02f411640edf25ea374844726405773a9827b21bec647c5ee43",
     "components/ul_MMBT3904-TP/KiCADv6/footprints.pretty/SOT-23_MCC-M.kicad_mod": "41c85df5b3d7bb3f9bbc3f3dc7d2d8b3b73158d33872792abde3fe68ea4ceee5",
     "components/ul_MMBT3904-TP/KiCADv6/footprints.pretty/SOT-23_MCC.kicad_mod": "0781b091a507ec78ce65a6bb1a82012f2197926fef57c51fef183e3fb41747fa",
     "scripts/export-manufacturing.sh": "48c12a0a9fd8f473b4f04c9c569d51e98b532b3dce79c7e82b76eec4d54023a2",
-    "scripts/package-manufacturing.py": "44317b97236a967bf5737445a57d21a5e782a67b2bf1a307981b98adb3e26f73"
+    "scripts/package-manufacturing.py": "90b94cdd6b79050611e5dc99ac1ae0b6d489247bd8e1cf8df07dc61ce6e7a4d6",
+    "manufacturing/procurement.json": "9a430591252928eeb3f47107cf92a116df7cb2575081e01885ca978c376d1794",
+    "docs/rev15-assembly.md": "32f48c6158b6e3dad6f68abc2be7f8a59e0997f5ae886de4c5a361aabc3acbbc",
+    "manufacturing/rev15/PCBWay-instructions.md": "4a5a67b272b615c3dba0d4205b77da953926dbc7ac9458cdaf291a91fd5f47b9"
   },
   "artifact_sha256": {
-    "BOM.csv": "9559e4335de66c9b943513ca484d2f10daf9bbe368c8f8747ec1074389cf554a",
-    "CPL.csv": "f6904cb199e158ff50a4b1e6e16eb2fc7b15989bab202cd1a6af58199750ff5a",
-    "assembly.pdf": "a06907ca1315861494e91ec6b1f6adf0cac453b41c6d89f959c9cacb51ae6b80",
-    "copper.pdf": "d9130bbc34f64a6a9f06c18cb13e663a054701943a03f68a92b33d20940f56ce",
-    "fabrication.zip": "f36308ae03ea9debef111586753b798ad2e52f8a74ef25699ab690456b75117e",
-    "schematic.pdf": "714b59b65691b07c4057636e29773d28f3f993c7f5c01f2a2921ff1b7a44ddc0"
+    "BOM.csv": "89d347421778bf9b00eea3b125cd38289d18be08f8204698331ab65f720aebf6",
+    "CPL.csv": "69048e9f56936f527103cb93d2eb9d1724d03f7770de8237ae02d6abf83b211f",
+    "PCBWay-BOM.csv": "89d347421778bf9b00eea3b125cd38289d18be08f8204698331ab65f720aebf6",
+    "PCBWay-SMT-CPL.csv": "da4b897195328717c62e307bbfd13faaa20ca56f95765c2b10c557287bbf70a8",
+    "PCBWay-package.zip": "26dcf3a74ec08250a0aec4eb48e87e3c5646f6b72eecff04d624563604ac9416",
+    "assembly.pdf": "9ef5d64402ef2b450ebcf2c62a6252fab7dc4928c18fe04b24a0d98c412bc849",
+    "copper.pdf": "f0cd84f37ba19da6b37113b2f05fe39f001c08d43941815829a12dbd1a655fba",
+    "fabrication.zip": "b1023a76c951ef3cb6ea3ebd689fc82b8e26df4d5ee82049ff6136b737ced032",
+    "schematic.pdf": "14727aded6dffacffb731d6c6f64e8f4d1986e5b2a0393396093363d357879ae"
   },
   "status": "Prototype; procurement and physical acceptance remain required. See README.md and docs/rev15-assembly.md."
 }
