@@ -16,15 +16,15 @@
     "components/ul_MMBT3904-TP/KiCADv6/footprints.pretty/SOT-23_MCC-M.kicad_mod": "41c85df5b3d7bb3f9bbc3f3dc7d2d8b3b73158d33872792abde3fe68ea4ceee5",
     "components/ul_MMBT3904-TP/KiCADv6/footprints.pretty/SOT-23_MCC.kicad_mod": "0781b091a507ec78ce65a6bb1a82012f2197926fef57c51fef183e3fb41747fa",
     "scripts/export-manufacturing.sh": "48c12a0a9fd8f473b4f04c9c569d51e98b532b3dce79c7e82b76eec4d54023a2",
-    "scripts/package-manufacturing.py": "8f91831f69496a822eb37d22ecb378dcbd5017db297ba28d2f981d3e64a17486"
+    "scripts/package-manufacturing.py": "44317b97236a967bf5737445a57d21a5e782a67b2bf1a307981b98adb3e26f73"
   },
   "artifact_sha256": {
-    "BOM.csv": "31e4011da909bec45620d35292f8049ed83c4bf453827878b0672a57d7acabea",
+    "BOM.csv": "9559e4335de66c9b943513ca484d2f10daf9bbe368c8f8747ec1074389cf554a",
     "CPL.csv": "f6904cb199e158ff50a4b1e6e16eb2fc7b15989bab202cd1a6af58199750ff5a",
-    "assembly.pdf": "1898006d6a6628d7b7701cdb572a8eaa9784975e470b6b045806bde8462b43cb",
-    "copper.pdf": "4934a1c45136f84a4d49aff694f0005aac2e2b1691a2d9c14c9a529a296a2eac",
-    "fabrication.zip": "e92109798e3ac12e8a481d8ed1ae5b68c561272cba195e7933ac5d1d2f46898d",
-    "schematic.pdf": "0b8871817b44c987f7b6fb983c6ea6affd7c2a63c1c2aa77671af45943055ec8"
+    "assembly.pdf": "a06907ca1315861494e91ec6b1f6adf0cac453b41c6d89f959c9cacb51ae6b80",
+    "copper.pdf": "d9130bbc34f64a6a9f06c18cb13e663a054701943a03f68a92b33d20940f56ce",
+    "fabrication.zip": "f36308ae03ea9debef111586753b798ad2e52f8a74ef25699ab690456b75117e",
+    "schematic.pdf": "714b59b65691b07c4057636e29773d28f3f993c7f5c01f2a2921ff1b7a44ddc0"
   },
   "status": "Prototype; procurement and physical acceptance remain required. See README.md and docs/rev15-assembly.md."
 }

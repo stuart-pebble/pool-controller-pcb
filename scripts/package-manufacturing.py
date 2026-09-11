@@ -33,7 +33,7 @@ for row in bom:
     elif row['Designator'] == 'L1':
         row['Assembly notes'] = 'NRND series; confirm stock and actual part before assembly. No automatic substitution.'
 with (stage / 'BOM.csv').open('w', newline='') as f:
-    writer = csv.DictWriter(f, fieldnames=list(bom[0]))
+    writer = csv.DictWriter(f, fieldnames=list(bom[0]), lineterminator='\n')
     writer.writeheader()
     writer.writerows(bom)
 with zipfile.ZipFile(stage / 'fabrication.zip', 'w', zipfile.ZIP_DEFLATED) as z:
